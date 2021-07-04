@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
 import HomePage from "./pages/Home";
 import CategoryPage from "./pages/Category";
 import LandingPage from "./pages/Landing";
@@ -17,7 +17,9 @@ function App() {
    <CartStore>
     <MuiThemeProvider theme={theme}>
      <BrowserRouter>
-      
+      <Route exact path="/">
+        <Redirect to="/welcome" />
+      </Route>
        <Route path="/welcome">
         <LandingPage />
        </Route>
