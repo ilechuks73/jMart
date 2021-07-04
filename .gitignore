@@ -6,4 +6,5 @@ npm-debug.log*
 /client/node_modules
 /server/node_modules
 /builds
+/client/build
 jMartClient.code-workspace

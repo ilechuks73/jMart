@@ -1,0 +1,20 @@
+{
+  "name": "jMart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:client": "cd client && npm run build && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilechuks73/jMart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilechuks73/jMart/issues"
+  },
+  "homepage": "https://github.com/ilechuks73/jMart#readme"
+}
