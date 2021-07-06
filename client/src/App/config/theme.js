@@ -9,5 +9,10 @@ export const theme = createMuiTheme({
     secondary:{
       main: '#ff0303'
     }
+  },
+  shape:{
+    borderRadius: function(num){
+      return 5*num
+    }
   }
 })
